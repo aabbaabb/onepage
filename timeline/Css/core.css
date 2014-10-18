@@ -1,0 +1,819 @@
+@charset "UTF-8";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: "Open Sans", "Arial", sans-serif;
+	outline: none; 
+} 
+
+.trm {
+	text-indent: -999999px;
+	overflow: hidden;
+	display: block; 
+}
+
+.centered {
+	margin: 0 auto; 
+}
+
+.removable {
+	position: relative;
+}
+
+#sections .section .content.wide {
+	width: 960px;
+}
+
+/*For sections.*/
+#sections {
+	width: 100%;
+	min-width: 960px; 
+}
+
+#sections .section .content {
+	width: 100%;
+	min-height: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden; 
+}
+
+/*This is the section0.*/
+#sections .section#s0 {
+	background: #3498db;
+}
+
+#sections .section#s0 .item1 {
+	background: url(../Images/复旦学生网十三周年站庆特别策划.png) no-repeat;
+	width: 569px;
+	height: 36px;
+	margin-top: 180px;
+}
+
+#sections .section#s0 .item2 {
+	background: url(../Images/STUTIMELINE.png) no-repeat;
+	width: 945px;
+	height: 105px;
+	margin-top: 50px;
+}
+
+#sections .section#s0 .item3 {
+	background: url(../Images/十三周年往事回顾.png) no-repeat;
+	width: 913px;
+	height: 98px;
+	margin-top: 170px;
+}
+
+#sections .section#s0 .ball {
+	background: url(../Images/网.png) no-repeat;
+	width: 103px;
+	height: 103px;
+	margin-top: 10px;
+	top: -113px;
+	left: 35px;
+}
+
+#sections .section#s0 .gotosection {
+	background: url(../Images/Godown.png) no-repeat;
+	width: 120px;						
+	height: 120px;
+}
+
+#sections .section#s0 .gotosection:hover {
+	background-position: bottom; 
+}
+
+/*This is the section1.*/
+#sections .section#s1 {
+	background: #3498db;
+}
+
+#sections .section#s1 .item1 {
+	width: 300px;
+	height: 603px;
+	margin-left: 100px;
+	margin-top: 240px;
+	float: left;
+}
+
+#sections .section#s1 #wave1 {
+	background: url(../Images/wave1.png) no-repeat;
+	width: 96px;
+	height: 34px;
+	top: 100px;
+	left: 15px;
+	z-index: 1;
+}
+
+#sections .section#s1 #wave2 {
+	background: url(../Images/wave2.png) no-repeat;
+	width: 95px;
+	height: 33px;
+	top: -80px;
+}
+
+#sections .section#s1 #wave3 {
+	background: url(../Images/wave3.png) no-repeat;
+	width: 108px;
+	height: 33px;
+	top: 40px;
+	left: 280px;
+}
+
+#sections .section#s1 #wave4 {
+	background: url(../Images/wave4.png) no-repeat;
+	width: 138px;
+	height: 34px;
+	top: 90px;
+	left: 270px;
+}
+
+#sections .section#s1 #wave5 {
+	background: url(../Images/wave5.png) no-repeat;
+	width: 222px;
+	height: 34px;
+	top: 10px;
+}
+
+#sections .section#s1 #Bigboat {
+	background: url(../Images/Bigboat.png) no-repeat;
+	width: 256px;
+	height: 235px;
+	top: -280px;
+	left: 30px;
+}
+
+#sections .section#s1 #Smallboat {
+	background: url(../Images/Smallboat.png) no-repeat;
+	width: 52px;
+	height: 48px;
+	top: -510px;
+	left: 250px;
+}
+
+#sections .section#s1 #cloud1 {
+	background: url(../Images/cloud1.png) no-repeat;
+	width: 92px;
+	height: 59px;
+	top: -30px;
+	left: 220px;
+}
+
+#sections .section#s1 #cloud2 {
+	background: url(../Images/cloud2.png) no-repeat;
+	width: 73px;
+	height: 46px;
+	top: -80px;
+	left: -40px;
+}
+
+#sections .section#s1 #cloud3 {
+	background: url(../Images/cloud3.png) no-repeat;
+	width: 90px;
+	height: 57px;
+	top: -160px;
+	left: 30px;
+}
+
+#sections .section#s1 #sun {
+	background: url(../Images/sun.png) no-repeat;
+	width: 64px;
+	height: 64px;
+}
+
+#sections .section#s1 #number1 {
+	background: url(../Images/number1.png) no-repeat;
+	width: 172px;
+	height: 20px;
+	top: -290px;
+	left: 250px;
+}
+
+#sections .section#s1 #number2 {
+	background: url(../Images/number2.png) no-repeat;
+	width: 213px;
+	height: 20px;
+	top: -260px;
+	left: -30px;
+}
+
+#sections .section#s1 .item2 {
+	margin-top: 290px;
+	width: 200px;
+	margin-right: 200px;
+	float: right;
+}
+
+#sections .section#s1 #May {
+	background: url(../Images/May.png) no-repeat;
+	width: 112px;						
+	height: 90px;
+}
+
+#sections .section#s1 #birth {
+	background: url(../Images/诞生.png) no-repeat;
+	width: 359px;						
+	height: 174px;
+	margin-top: 70px;
+}
+
+/*For section2*/
+#sections .section#s2 {
+	background: #2ecc71;
+}
+
+#sections .section#s2 .item1 {
+	width: 300px;
+	height: 603px;
+	margin-left: 100px;
+	margin-top: 250px;
+	float: left;
+}
+
+
+#sections .section#s2 #Aup {
+	background: url(../Images/Aup.png) no-repeat;
+	width: 58px;
+	height: 69px;
+	top: -350px;
+	left: 160px;
+}
+
+#sections .section#s2 #Ale{
+	background: url(../Images/Ale.png) no-repeat;
+	width: 189px;
+	height: 299px;
+	top: -300px;
+	left: -10px;
+}
+
+#sections .section#s2 #Ari {
+	background: url(../Images/Ari.png) no-repeat;
+	width: 117px;
+	height: 229px;
+	top: -600px;
+	left: 230px;
+}
+
+#sections .section#s2 #Bigball {
+	background: url(../Images/Bigball.png) no-repeat;
+	width: 387px;
+	height: 387px;
+	top: 20px;
+	left: -20px;
+}
+
+#sections .section#s2 .item2 {
+	margin-top: 300px;
+	width: 200px;
+	margin-right: 200px;
+	float: right;
+}
+
+#sections .section#s2 #Intro2 {
+	background: url(../Images/Intro2.png) no-repeat;
+	width: 369px;
+	height: 174px;
+	margin-top: 70px;
+}
+
+#sections .section#s2 #Y2002 {
+	background: url(../Images/Y2002.png) no-repeat;
+	width: 114px;
+	height: 86px;
+}
+
+/*For section3*/
+#sections .section#s3 {
+	background: #e74c3c;
+}
+
+#sections .section#s3 .item1 {
+	width: 300px;
+	height: 603px;
+	margin-left: 100px;
+	margin-top: 250px;
+	float: left;
+}
+
+#sections .section#s3 #number1000000 {
+	background: url(../Images/number1000000.png) no-repeat;
+	width: 247px;
+	height: 38px;
+	top: -52px;
+	left: 45px;
+}
+
+#sections .section#s3 #radio {
+	background: url(../Images/radio.png) no-repeat;
+	width: 460px;
+	height: 266px;
+	top: 90px;
+	left: -60px;
+}
+
+#sections .section#s3 .item2 {
+	margin-top: 300px;
+	width: 200px;
+	margin-right: 200px;
+	float: right;
+}
+
+#sections .section#s3 #Intro3 {
+	background: url(../Images/Intro3.png) no-repeat;
+	width: 354px;
+	height: 174px;
+	margin-top: 70px;
+}
+
+#sections .section#s3 #Y2004 {
+	background: url(../Images/Y2004.png) no-repeat;
+	width: 121px;
+	height: 86px;
+}
+
+/*For section4*/
+#sections .section#s4 {
+	background: #f1c410;
+}
+
+#sections .section#s4 .item1 {
+	width: 300px;
+	height: 603px;
+	margin-left: 100px;
+	margin-top: 250px;
+	float: left;
+}
+
+#sections .section#s4 #ferrisWheel {
+	background: url(../Images/ferrisWheel.png) no-repeat;
+	width: 338px;
+	height: 387px;
+	top: 10px;
+}
+
+#sections .section#s4 #browser {
+	background: url(../Images/browser.png) no-repeat;
+	width: 151px;
+	height: 133px;
+	top: -270px;
+	left: 95px;
+}
+
+#sections .section#s4 #hr {
+	background: url(../Images/hr.png) no-repeat;
+	width: 65px;
+	height: 67px;
+	top: -230px;
+	left: 60px;
+}
+
+#sections .section#s4 #mkt {
+	background: url(../Images/mkt.png) no-repeat;
+	width: 65px;
+	height: 67px;
+	top: -297px;
+	left: 210px;
+}
+
+#sections .section#s4 #live {
+	background: url(../Images/live.png) no-repeat;
+	width: 65px;
+	height: 67px;
+	top: -470px;
+	left: -20px;
+}
+
+#sections .section#s4 #cv {
+	background: url(../Images/cv.png) no-repeat;
+	width: 65px;
+	height: 67px;
+	top: -537px;
+	left: 290px;
+}
+
+#sections .section#s4 #design {
+	background: url(../Images/design.png) no-repeat;
+	width: 65px;
+	height: 67px;
+	top: -730px;
+	left: 10px;
+}
+
+#sections .section#s4 #html {
+	background: url(../Images/html.png) no-repeat;
+	width: 65px;
+	height: 67px;
+	top: -797px;
+	left: 270px;
+}
+
+#sections .section#s4 #tech {
+	background: url(../Images/tech.png) no-repeat;
+	width: 65px;
+	height: 67px;
+	top: -935px;
+	left: 137px;
+}
+
+#sections .section#s4 .item2 {
+	margin-top: 300px;
+	width: 200px;
+	margin-right: 200px;
+	float: right;
+}
+
+#sections .section#s4 #Intro4 {
+	background: url(../Images/Intro4.png) no-repeat;
+	width: 376px;
+	height: 174px;
+	margin-top: 70px;
+}
+
+#sections .section#s4 #Y2005 {
+	background: url(../Images/Y2005.png) no-repeat;
+	width: 120px;
+	height: 86px;
+}
+
+/*For section5*/
+#sections .section#s5 {
+	background: #8e44ad;
+}
+
+#sections .section#s5 .item1 {
+	width: 300px;
+	height: 603px;
+	margin-left: 140px;
+	margin-top: 250px;
+	float: left;
+}
+
+#sections .section#s5 #hp {
+	background: url(../Images/hp.png) no-repeat;
+	width: 277px;
+	height: 268px;
+	top: 60px;
+	left: -100px;
+	z-index: 2;
+}
+
+#sections .section#s5 #line3 {
+	background: url(../Images/line3.png) no-repeat;
+	width: 103px;
+	height: 2px;
+	top: 50px;
+	left: 190px;
+	z-index: 1;
+}
+
+#sections .section#s5 #line2 {
+	background: url(../Images/line2.png) no-repeat;
+	width: 223px;
+	height: 2px;
+	top: 20px;
+	left: 70px;
+	z-index: 1;
+}
+
+#sections .section#s5 #line1 {
+	background: url(../Images/line1.png) no-repeat;
+	width: 223px;
+	height: 2px;
+	top: -10px;
+	left: 70px;
+	z-index: 1;
+}
+
+#sections .section#s5 #contest {
+	background: url(../Images/contest.png) no-repeat;
+	width: 119px;
+	height: 19px;
+	top: -80px;
+	left: 170px;
+	z-index: 1;
+}
+
+#sections .section#s5 #paper {
+	background: url(../Images/paper.png) no-repeat;
+	width: 299px;
+	height: 214px; 
+	left: 30px;
+	top: -140px;
+}
+
+#sections .section#s5 .item2 {
+	margin-top: 300px;
+	width: 200px;
+	margin-right: 200px;
+	float: right;
+}
+
+#sections .section#s5 #Intro5 {
+	background: url(../Images/Intro5.png) no-repeat;
+	width: 358px;
+	height: 174px;
+	margin-top: 70px;
+}
+
+#sections .section#s5 #Y2008 {
+	background: url(../Images/Y2008.png) no-repeat;
+	width: 107px;
+	height: 87px;
+}
+
+/*For section6*/
+#sections .section#s6 {
+	background: #f39c12;
+}
+
+#sections .section#s6 .item1 {
+	width: 300px;
+	height: 603px;
+	margin-left: 100px;
+	margin-top: 250px;
+	float: left;
+}
+
+#sections .section#s6 #lesson {
+	background: url(../Images/lesson.png) no-repeat;
+	width: 124px;
+	height: 124px;
+	top: 260px;
+	left: 230px;
+}
+
+#sections .section#s6 #event {
+	background: url(../Images/event.png) no-repeat;
+	width: 144px;
+	height: 144px;
+	top: 180px;
+	left: -80px;
+}
+
+#sections .section#s6 #tv {
+	background: url(../Images/tv.png) no-repeat;
+	width: 172px;
+	height: 172px;
+	top: -240px;
+	left: 50px;
+}
+
+#sections .section#s6 #bubble1 {
+	background: url(../Images/bubble1.png) no-repeat;
+	width: 56px;
+	height: 56px;
+	top: -100px;
+	left: 100px;
+}
+
+#sections .section#s6 #bubble2 {
+	background: url(../Images/bubble2.png) no-repeat;
+	width: 16px;
+	height: 16px;
+	top: -300px;
+}
+
+#sections .section#s6 #bubble3 {
+	background: url(../Images/bubble3.png) no-repeat;
+	width: 37px;
+	height: 37px;
+	top: -210px;
+	left: 160px;
+}
+
+#sections .section#s6 #bubble4 {
+	background: url(../Images/bubble4.png) no-repeat;
+	width: 37px;
+	height: 37px;
+	top: -350px;
+	left: 20px;
+}
+
+#sections .section#s6 #bubble5 {
+	background: url(../Images/bubble5.png) no-repeat;
+	width: 70px;
+	height: 70px;
+	top: -440px;
+	left: 260px;
+}
+
+#sections .section#s6 .item2 {
+	margin-top: 300px;
+	width: 200px;
+	margin-right: 200px;
+	float: right;
+}
+
+#sections .section#s6 #Intro6 {
+	background: url(../Images/Intro6.png) no-repeat;
+	width: 360px;
+	height: 174px;
+	margin-top: 70px;
+}
+
+#sections .section#s6 #Y2009 {
+	background: url(../Images/Y2009.png) no-repeat;
+	width: 115px;
+	height: 89px;
+}
+
+/*For section7 of 2012*/
+#sections .section#s7 {
+	background: #2c3e50;
+}
+
+#sections .section#s7 .item1 {
+	width: 300px;
+	height: 603px;
+	margin-left: 100px;
+	margin-top: 250px;
+	float: left;
+}
+
+#sections .section#s7 #cry {
+	background: url(../Images/cry.png) no-repeat;
+	width: 338px;
+	height: 338px;
+	top: 50px;
+	left: -30px;
+}
+
+#sections .section#s7 .item2 {
+	margin-top: 300px;
+	width: 200px;
+	margin-right: 200px;
+	float: right;
+}
+
+#sections .section#s7 #Intro7 {
+	background: url(../Images/Intro7.png) no-repeat;
+	width: 358px;
+	height: 174px;
+	margin-top: 70px;
+}
+
+#sections .section#s7 #Y2012 {
+	background: url(../Images/Y2012.png) no-repeat;
+	width: 109px;
+	height: 88px;
+}
+
+/*For section8 of 2013*/
+#sections .section#s8 {
+	background: #1abc9c;
+}
+
+#sections .section#s8 .item1 {
+	width: 300px;
+	height: 603px;
+	margin-left: 100px;
+	margin-top: 250px;
+	float: left;
+}
+
+#sections .section#s8 #box {
+	background: url(../Images/box.png) no-repeat;
+	width: 409px;
+	height: 251px;
+	top: 137px;
+}
+
+#sections .section#s8 #ticket {
+	background: url(../Images/ticket.png) no-repeat;
+	width: 96px;
+	height: 103px;
+	top: -150px;
+	left: 85px;
+}
+
+#sections .section#s8 .item2 {
+	margin-top: 300px;
+	width: 200px;
+	margin-right: 200px;
+	float: right;
+}
+
+#sections .section#s8 #Intro8 {
+	background: url(../Images/Intro8.png) no-repeat;
+	width: 358px;
+	height: 174px;
+	margin-top: 70px;
+}
+
+#sections .section#s8 #Y2013 {
+	background: url(../Images/Y2013.png) no-repeat;
+	width: 108px;
+	height: 87px;
+}
+
+/*For section9 of 2014*/
+#sections .section#s9 {
+	background: #bdc3c7;
+}
+
+#sections .section#s9 .item1 {
+	width: 300px;
+	height: 603px;
+	margin-left: 100px;
+	margin-top: 250px;
+	float: left;
+}
+
+#sections .section#s9 #someShape {
+	background: url(../Images/someShape.png) no-repeat;
+	width: 491px;
+	height: 190px;
+	top: -270px;
+	left: -120px;
+}
+
+#sections .section#s9 #iphoneBlack {
+	background: url(../Images/iphoneBlack.png) no-repeat;
+	width: 168px;
+	height: 353px;
+	top: -140px;
+	left: 160px;
+}
+
+#sections .section#s9 #iphoneWhite {
+	background: url(../Images/iphoneWhite.png) no-repeat;
+	width: 169px;
+	height: 354px;
+	top: -530px;
+	left: -70px;
+}
+
+#sections .section#s9 .item2 {
+	margin-top: 300px;
+	width: 200px;
+	margin-right: 200px;
+	float: right;
+}
+
+#sections .section#s9 #Intro9 {
+	background: url(../Images/Intro9.png) no-repeat;
+	width: 360px;
+	height: 174px;
+	margin-top: 70px;
+}
+
+#sections .section#s9 #Y2014 {
+	background: url(../Images/Y2014.png) no-repeat;
+	width: 108px;
+	height: 87px;
+}
+
+/*Final section10*/
+#sections .section#s10 {
+	background: #f6f6f6;
+}
+
+#sections .section#s10 .item1 {
+	background: url(../Images/Words.png) no-repeat;
+	width: 943px;
+	height: 41px;
+	margin-top: 215px;
+}
+
+#sections .section#s10 .item2 {
+	background: url(../Images/Welcome.png) no-repeat;
+	width: 549px;
+	height: 109px;
+	margin-top: 100px;
+}
+
+#sections .section#s10 .backTop {
+	background: url(../Images/Up.png) no-repeat;
+	width: 92px;						
+	height: 92px;
+	margin-top: 100px;
+}
+
+#sections .section#s10 .backTop:hover {
+}
+
+#sections .section#s10 .item3 {
+	background: url(../Images/backTop.png) no-repeat;
+	width: 105px;
+	height: 24px;
+	margin-top: 50px;
+	position: relative;
+	left: 3px;
+}
